@@ -5,15 +5,12 @@
 *   Except February 28 in fine,
 *   And 29 on leap, because Bill forgot the rhyme.
 */
-
 // January = 1
 // Febraruy = 2
 // 
 // December = 12
-
 // let monthNum : number = 6; //keep changing the value test
 // let isLeapYear : boolean = false;
-
 // Your job is to print the number of days in monthNum.
 // Just print it, using console.log
 // You only need one if/else structure (maybe with multiple else ifs)
@@ -21,7 +18,6 @@
 //      1.  Create a project in github
 //      2.  Use the commands in github to connect to your local
 //      3.  Push the files from local to github (3 steps)
-
 /*  January => 31
     February => 28  // leap year => 29
     March => 31
@@ -35,51 +31,47 @@
     November => 30
     December => 31
 */
-
-let monthNum : number = 2; // change this value to test
-let isLeapYear : boolean = true; // change this value to test
-
-let January : number = 1,
-    February : number = 2,
-    March : number = 3,
-    April : number = 4,
-    May : number = 5,
-    June : number = 6,
-    July : number = 7,
-    August : number = 8,
-    September : number = 9,
-    October : number = 10,
-    November : number = 11,
-    December : number = 12;
-
-if(monthNum == January) {
+var monthNum = 2; // change this value to test
+var isLeapYear = true; // change this value to test
+var January = 1, February = 2, March = 3, April = 4, May = 5, June = 6, July = 7, August = 8, September = 9, October = 10, November = 11, December = 12;
+if (monthNum == January) {
     console.log("January has 31 days.");
-} else if(monthNum == February) {
-    if(isLeapYear) {
+}
+else if (monthNum == February) {
+    if (isLeapYear) {
         console.log("February has 29 days since this is a leap year.");
-    } else {
+    }
+    else {
         console.log("February has 28 days.");
     }
-} else if(monthNum == March) {
+}
+else if (monthNum == March) {
     console.log("March has 31 days.");
-} else if(monthNum == April) {
+}
+else if (monthNum == April) {
     console.log("April has 30 days.");
-} else if(monthNum == May) {
+}
+else if (monthNum == May) {
     console.log("May has 31 days.");
-} else if(monthNum == June) {
+}
+else if (monthNum == June) {
     console.log("June has 30 days.");
-} else if(monthNum == July) {
+}
+else if (monthNum == July) {
     console.log("July has 31 days.");
-} else if(monthNum == August) {
+}
+else if (monthNum == August) {
     console.log("August has 31 days.");
-} else if(monthNum == September) {
+}
+else if (monthNum == September) {
     console.log("September has 30 days.");
-} else if(monthNum == October) {
+}
+else if (monthNum == October) {
     console.log("October has 31 days.");
-} else if(monthNum == November) {
+}
+else if (monthNum == November) {
     console.log("November has 30 days.");
-} else if(monthNum == December) {
+}
+else if (monthNum == December) {
     console.log("December has 31 days.");
 }
-
-
