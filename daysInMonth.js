@@ -75,3 +75,6 @@ else if (monthNum == November) {
 else if (monthNum == December) {
     console.log("December has 31 days.");
 }
+else {
+    console.log("Invalid month number.");
+}

@@ -80,6 +80,8 @@ if(monthNum == January) {
     console.log("November has 30 days.");
 } else if(monthNum == December) {
     console.log("December has 31 days.");
+} else {
+    console.log("Invalid month number.");
 }
 
 
