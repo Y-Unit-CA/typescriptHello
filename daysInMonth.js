@@ -31,8 +31,8 @@
     November => 30
     December => 31
 */
-var monthNum = 2; // change this value to test
-var isLeapYear = true; // change this value to test
+var monthNum = 70; // change this value to test
+var isLeapYear = false; // change this value to test
 var January = 1, February = 2, March = 3, April = 4, May = 5, June = 6, July = 7, August = 8, September = 9, October = 10, November = 11, December = 12;
 if (monthNum == January) {
     console.log("January has 31 days.");

@@ -36,8 +36,8 @@
     December => 31
 */
 
-let monthNum : number = 2; // change this value to test
-let isLeapYear : boolean = true; // change this value to test
+let monthNum : number = 70; // change this value to test
+let isLeapYear : boolean = false; // change this value to test
 
 let January : number = 1,
     February : number = 2,

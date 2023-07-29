@@ -1,0 +1,35 @@
+// Procedural Abstraction - verbs
+
+Procedure: Make a Peanut Butter Sandwich
+1. Get ingredients
+2. Add a single slice of toast
+3. Add butter
+4. Add honey
+5. Add peanut Butter
+6. Add a single slice of toast
+
+Procedure: Get ingredients
+1. Get bread
+2. Get butter3. get honey
+4. get peanut butter
+5. Make sure toaster is working
+
+Procedure: Add single slice of toast
+1. Insert 2 slices into toaster
+2. Turn on toaster
+3. Wait for toaster to finish
+4. Remove bread from toaster
+
+Procedure: Get bread
+1. Locate bread
+2. Open bread package
+3. Remove two slices
+4. Close package
+5. Put bread back
+
+Procedure: Open bread package
+1. Untwist twist tie 
+2. Hold top of bread
+3. Let it spin until open 
+
+function openBreadPackage()
