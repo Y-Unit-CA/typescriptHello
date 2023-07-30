@@ -5,7 +5,7 @@ let luckyCharms : Array <string> = ["Green clover", "Purple diamons", "Rainbow h
 function joinArray(joinables : Array <string>, joiner : string ) : string {
     
     let retVal : string = joinables[0];
-    for(let i : number =1; i < joinables.length; i++) {
+    for(let i : number = 1; i < joinables.length; i++) {
         retVal += joiner;
         let word : string = joinables [i];
         retVal += word;
