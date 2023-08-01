@@ -1,6 +1,7 @@
 class Door {
     location : String ;
     isOpen : boolean;
+    color : String;
 
     constructor( name : String, initialState : boolean ) {
         this.location = name ;        // "this" is a reference to the current object
@@ -24,6 +25,10 @@ class Door {
 class DoorInspector {
     inspect( door : Door ) {
         console.log( `Door at ${door.location} is open? ${door.isOpen}` );
+    }
+
+    paint( door : Door, color : String ) {
+        door.color = color;
     }
 }
 
